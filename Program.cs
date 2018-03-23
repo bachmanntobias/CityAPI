@@ -21,5 +21,6 @@ namespace CityAPI
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
+
     }
 }
